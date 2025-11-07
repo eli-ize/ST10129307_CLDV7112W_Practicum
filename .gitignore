@@ -1,0 +1,97 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Azure Functions
+local.settings.json
+host.json.bak
+
+# Azure
+*.PublishSettings
+*.pubxml
+*.azurePubxml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.zip
+*.rar
+*.7z
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Local configuration
+appsettings.Local.json
+appsettings.Production.json
+local.settings.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Azure secrets and connection strings
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Deployment
+deploy.zip
+deploy-fixed.zip
+publish/
+publish.zip
+app-logs.zip
