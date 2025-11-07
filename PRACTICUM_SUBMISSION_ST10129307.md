@@ -6,7 +6,7 @@
 **Assessment:** Practicum (100 Marks)  
 **Submission Date:** November 7, 2025  
 **Application URL:** https://st10129307.azurewebsites.net  
-**Repository URL:** https://github.com/[your-username]/ST10129307_CLDV7112w_Practicum
+**Repository URL:** https://github.com/eli-ize/ST10129307_CLDV7112W_Practicum
 
 ---
 
