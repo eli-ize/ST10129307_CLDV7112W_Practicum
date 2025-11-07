@@ -28,6 +28,24 @@ This folder contains comprehensive implementation guides for various UI framewor
 - **Best For**: Business applications, dashboards, enterprise software
 - **Key Features**: Rich components, data tables, forms, enterprise patterns
 
+### 5. **Chakra UI Guide** (`CHAKRA_UI_GUIDE.md`)
+- **Type**: Simple, modular & accessible component library
+- **Focus**: Developer-friendly React components with great DX
+- **Best For**: React apps needing accessibility and simple API
+- **Key Features**: Accessible by default, excellent theming, TypeScript support
+
+### 6. **Mantine Guide** (`MANTINE_GUIDE.md`)
+- **Type**: Modern React components with incredible developer experience
+- **Focus**: Rich components with 60+ custom hooks
+- **Best For**: Feature-rich applications needing extensive component library
+- **Key Features**: 100+ components, TypeScript first, excellent DevTools
+
+### 7. **NextUI Guide** (`NEXTUI_GUIDE.md`)
+- **Type**: Beautiful, fast & modern React UI library
+- **Focus**: Modern design with server components compatibility
+- **Best For**: Next.js apps needing beautiful default design
+- **Key Features**: Modern aesthetics, performance optimized, built-in dark mode
+
 ---
 
 ## 🚀 How to Use These Guides
@@ -43,10 +61,13 @@ This folder contains comprehensive implementation guides for various UI framewor
 
 | Project Type | Recommended Framework | Reason |
 |--------------|---------------------|---------|
-| **Startup MVP** | Shadcn/ui + Tailwind | Fast development, modern look |
+| **Startup MVP** | NextUI + Tailwind | Beautiful defaults, modern design |
 | **Enterprise App** | Ant Design | Rich components, enterprise features |
 | **Brand-Heavy Site** | Pure Tailwind | Complete design control |
 | **Google-style App** | Material Design | Consistent, accessible patterns |
+| **Accessibility Focus** | Chakra UI | Accessible by default, simple API |
+| **Feature-Rich App** | Mantine | 100+ components, excellent hooks |
+| **React Beginner** | Shadcn/ui + Tailwind | Copy-paste components, learning friendly |
 
 ---
 

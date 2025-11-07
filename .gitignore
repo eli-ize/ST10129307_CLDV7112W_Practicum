@@ -95,3 +95,24 @@ deploy-fixed.zip
 publish/
 publish.zip
 app-logs.zip
+
+# Documentation and sensitive content (protect from public access)
+docs/
+*.md
+!README.md
+!design-guides/README.md
+
+# Sensitive documents
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+PRACTICUM_SUBMISSION_*.md
+SECTION_*.md
+DEPLOYMENT_SUMMARY.md
+SCREENSHOT_CHECKLIST.md
+
+# Load testing results and logs
+load-test-results-*.json
+test-results/
+performance-reports/
