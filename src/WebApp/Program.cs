@@ -12,8 +12,12 @@ namespace ECommerceApp
         {
             var builder = WebApplication.CreateBuilder(args);
             
-            // Add local configuration file for development/testing
-            if (File.Exists("appsettings.Local.json"))
+            // Add local testing configuration file
+            if (File.Exists("appsettings.Testing.json"))
+            {
+                builder.Configuration.AddJsonFile("appsettings.Testing.json", optional: true, reloadOnChange: true);
+            }
+            else if (File.Exists("appsettings.Local.json"))
             {
                 builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
             }

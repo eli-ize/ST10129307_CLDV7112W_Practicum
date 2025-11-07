@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ProcessECommerceEvents",
+    "scriptFile": "ECommerceDataProcessor.dll",
+    "entryPoint": "ECommerceDataProcessor.EventProcessor.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "events",
+        "direction": "In",
+        "type": "eventHubTrigger",
+        "eventHubName": "ecommerce-events",
+        "connection": "EventHubConnection",
+        "cardinality": "Many",
+        "dataType": "String",
+        "properties": {}
+      }
+    ]
+  }
+]
