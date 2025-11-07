@@ -98,9 +98,9 @@ app-logs.zip
 
 # Documentation and sensitive content (protect from public access)
 docs/
+design-guides/
 *.md
 !README.md
-!design-guides/README.md
 
 # Sensitive documents
 *.docx
