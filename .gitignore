@@ -99,18 +99,28 @@ app-logs.zip
 # Documentation and sensitive content (protect from public access)
 docs/
 design-guides/
+
+# All markdown files except README
 *.md
 !README.md
+!.github/README.md
 
-# Sensitive documents
+# All document files (Office formats)
 *.docx
+*.doc
 *.pdf
 *.pptx
+*.ppt
 *.xlsx
-PRACTICUM_SUBMISSION_*.md
-SECTION_*.md
-DEPLOYMENT_SUMMARY.md
-SCREENSHOT_CHECKLIST.md
+*.xls
+
+# Practicum submission files (all variations)
+PRACTICUM_SUBMISSION*
+SECTION_*
+DEPLOYMENT_SUMMARY*
+SCREENSHOT_CHECKLIST*
+*SUBMISSION*
+*SECTION*
 
 # Load testing results and logs
 load-test-results-*.json
